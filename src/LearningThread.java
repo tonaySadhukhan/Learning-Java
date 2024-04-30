@@ -15,7 +15,7 @@ class A extends Thread{
         for(int i=0;i<100;i++) {
             System.out.println("Hi from class A");
             try {
-                Thread.sleep(500);
+                Thread.sleep(5);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
